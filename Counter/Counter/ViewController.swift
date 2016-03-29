@@ -102,7 +102,7 @@ class ViewController: UIViewController
         // 7. This method is run when the value of the stepper is changed by the user. If you've done steps 5 and 6 already, these steps
         //    should look pretty familiar, hint, hint. ;) Fill in the blanks below.
         //
-        currentCount = <#What goes here?#>
-        <#How about here?#>
+        currentCount = Int(sender.value)
+        updateViewsWithCurrentCount()
     }
 }
