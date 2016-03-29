@@ -58,7 +58,7 @@ class ViewController: UIViewController
         // 4. We also need to update the value of the UIStepper. The user will not see any change to the stepper, but it needs to have a
         //    current value nonetheless, so when + or - is tapped, it will know what value to increment. Fill in the blanks below.
         //
-        stepper.<#What are we setting?#> = <#variable name#>
+        stepper.value = Double(currentCount)
     }
     
     // MARK: - Gesture recognizers
