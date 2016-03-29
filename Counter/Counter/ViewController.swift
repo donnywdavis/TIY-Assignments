@@ -29,6 +29,7 @@ class ViewController: UIViewController
         // 1. Once the currentCount variable is set, each of the UI elements on the screen need to be updated to match the currentCount.
         //    There is a method below that performs these steps. All you need to do perform a method call in the line below.
         //
+        updateViewsWithCurrentCount()
         
     }
 
