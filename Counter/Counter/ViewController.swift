@@ -46,7 +46,7 @@ class ViewController: UIViewController
         //
         // 2. The textfield needs to always show the current count. Fill in the blank below to set the text value of the textfield.
         //
-        countTextField.text = "\(<#What goes here?#>)"
+        countTextField.text = "\(currentCount)"
         
         //
         // 3. Here we are setting the value property of the UISlider in the view. This causes the slider to set its handle to the
