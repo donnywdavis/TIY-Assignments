@@ -93,7 +93,7 @@ class ViewController: UIViewController
         // 6. Once we update the value of currentCount, we need to make sure all the UI elements on the screen are updated to keep
         //    everything in sync. We have previously done this (look in viewDidLoad). Fill in the blank below.
         //
-        <#What instruction should go here?#>
+        updateViewsWithCurrentCount()
     }
     
     @IBAction func stepperValueChanged(sender: UIStepper)
