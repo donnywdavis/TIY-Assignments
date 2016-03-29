@@ -25,7 +25,6 @@
 		DF5740CC1B835FE9004C128E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Counter/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		DF5740CF1B836008004C128E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DFDE89321B8261D3008A63C3 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFDE89361B8261D3008A63C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,18 +64,9 @@
 				DF5740C21B835FDE004C128E /* Info.plist */,
 				DF5740C91B835FE9004C128E /* LaunchScreen.xib */,
 				DF5740C11B835FDE004C128E /* Images.xcassets */,
-				DFDE89351B8261D3008A63C3 /* Supporting Files */,
 			);
 			name = Counter;
 			path = "Swift-Counter";
-			sourceTree = "<group>";
-		};
-		DFDE89351B8261D3008A63C3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFDE89361B8261D3008A63C3 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Swift-Counter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Counter;
 			};
@@ -275,7 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Swift-Counter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Counter;
 			};
