@@ -87,7 +87,7 @@ class ViewController: UIViewController
         //    to this method represents the slider from the view. We need to take the value of the slider and use it to update the
         //    value of our "currentCount" instance variable. Fill in the blank below.
         //
-        currentCount = sender.<#What property should we use here to set our current count?#>
+        currentCount = Int(sender.value)
         
         //
         // 6. Once we update the value of currentCount, we need to make sure all the UI elements on the screen are updated to keep
