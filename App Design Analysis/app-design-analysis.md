@@ -1,6 +1,6 @@
 ## App Design Analysis - Navigation Styles
 
-### 1Password
+### 1 - 1Password
 
 Description: Manage and store passwords
 
@@ -18,7 +18,7 @@ Description: Manage and store passwords
 
 ***
 
-### Nest
+### 2 - Nest
 
 Description: Manage Nest thermostat, smoke detector, and video camera
 
@@ -50,7 +50,7 @@ Description: Manage Nest thermostat, smoke detector, and video camera
 
 ***
 
-### Unread
+### 3 - Unread
 
 Description: RSS feed reader
 
@@ -69,7 +69,7 @@ Description: RSS feed reader
 
 ***
 
-### Day One
+### 4 - Day One
 
 Description: Journaling app
 
@@ -142,7 +142,7 @@ Description: Journaling app
 	
 ***
 	
-### Overcast
+### 5 - Overcast
 
 Description: Manage and listen to podcasts
 	
@@ -164,7 +164,7 @@ Description: Manage and listen to podcasts
 
 ***
 
-### Instagram
+### 6 - Instagram
 
 Description: Capture and share photos with others
 
@@ -216,7 +216,7 @@ Description: Capture and share photos with others
 
 ***
 
-### Calcbot
+### 7 - Calcbot
 
 Description: Calculator app
 
@@ -243,7 +243,7 @@ Description: Calculator app
 
 ***
 
-### Cash
+### 8 - Cash
 
 Description: Send and receive money to others
 
@@ -263,7 +263,7 @@ Description: Send and receive money to others
 
 ***
 
-### Trailers
+### 9 - Trailers
 
 Description: View trailers and showtimes for upcoming and recently released movies
 
@@ -302,7 +302,7 @@ Description: View trailers and showtimes for upcoming and recently released movi
 
 ***
 
-### Byword
+### 10 - Byword
 
 Description: Create and store text and markdown files
 
@@ -323,7 +323,7 @@ Description: Create and store text and markdown files
 
 ***
 
-### Cut the Rope
+### 11 - Cut the Rope
 
 Description: Puzzle Game
 
@@ -350,7 +350,7 @@ Description: Puzzle Game
 
 ***
 
-### Rop
+### 12 - Rop
 
 Description: Puzzle game
 
