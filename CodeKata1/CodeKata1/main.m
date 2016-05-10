@@ -69,7 +69,9 @@ void largestPalindrome() {
             }
             
             // Compare the original result to the reverse to see if it's a palindrome
-            if ([resultAsString isEqualToString:reversedString]) {
+            int resultNumber = (int)resultAsString;
+            int largestSeen = (int)theLargestPalindrome;
+            if ([resultAsString isEqualToString:reversedString] && resultNumber > largestSeen) {
                 [theLargestPalindrome setString:resultAsString];
             }
             
